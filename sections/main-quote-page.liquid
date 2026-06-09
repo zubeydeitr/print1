@@ -1,0 +1,116 @@
+{%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
+
+<div class="section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}" dir="rtl">
+  <div class="container">
+    <div class="tp1-quote-page">
+      <div class="tp1-section-head text-center">
+        {%- if section.settings.subheading != blank -%}
+          <p class="tp1-kicker">{{ section.settings.subheading }}</p>
+        {%- endif -%}
+
+        <h1>{{ section.settings.heading }}</h1>
+
+        {%- if section.settings.content != blank -%}
+          <div class="prose">{{ section.settings.content }}</div>
+        {%- endif -%}
+      </div>
+
+      <div class="tp1-quote-layout">
+        <div class="tp1-quote-info">
+          <h2>{{ section.settings.info_heading }}</h2>
+          <ul>
+            <li>نوع المنتج المطلوب: بوكس، كيس، ملصق، بطاقة، كوب، مطبوعات ورقية أو غير ذلك.</li>
+            <li>المقاس المطلوب أو صورة مرجعية للمنتج.</li>
+            <li>الكمية التقريبية وموعد التسليم المطلوب.</li>
+            <li>طريقة الطباعة والخامة والتشطيب المطلوب.</li>
+            <li>هل التصميم جاهز أم تحتاج إلى تجهيز تصميم؟</li>
+          </ul>
+        </div>
+
+        {%- form 'contact', class: 'tp1-quote-form' -%}
+          <input type="hidden" name="contact[form_type]" value="طلب عرض سعر">
+
+          {%- if form.posted_successfully? -%}
+            <div class="tp1-form-success">تم إرسال طلبك بنجاح. سنراجع التفاصيل ونتواصل معك.</div>
+          {%- endif -%}
+
+          {%- if form.errors -%}
+            <div class="tp1-form-error">يرجى التحقق من الحقول المطلوبة والمحاولة مرة أخرى.</div>
+          {%- endif -%}
+
+          <div class="tp1-quote-grid">
+            <input type="text" name="contact[name]" placeholder="الاسم" value="{{ customer.name }}" required>
+            <input type="email" name="contact[email]" placeholder="البريد الإلكتروني" value="{{ customer.email }}" required>
+            <input type="tel" name="contact[phone]" placeholder="رقم الجوال / واتساب">
+            <input type="text" name="contact[product]" placeholder="نوع المنتج المطلوب">
+            <input type="text" name="contact[quantity]" placeholder="الكمية التقريبية">
+            <input type="text" name="contact[size]" placeholder="المقاس المطلوب إن وجد">
+          </div>
+
+          <textarea name="contact[body]" rows="7" placeholder="اكتب تفاصيل الطلب: الخامة، الألوان، طريقة الطباعة، التشطيب، وموعد التسليم المطلوب" required></textarea>
+          <button type="submit">{{ section.settings.button_text }}</button>
+        {%- endform -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "صفحة طلب عرض سعر",
+  "class": "shopify-section--quote-page",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "نظام الألوان",
+      "default": "scheme-1"
+    },
+    {
+      "type": "checkbox",
+      "id": "separate_section_with_border",
+      "label": "إظهار حد فاصل للقسم",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "النص الصغير أعلى العنوان",
+      "default": "طلب عرض سعر"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "العنوان الرئيسي",
+      "default": "أرسل تفاصيل منتج الطباعة أو التغليف المطلوب"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "النص التعريفي",
+      "default": "<p>اكتب نوع المنتج، الكمية، المقاس، الخامة، طريقة الطباعة، وأي ملاحظات مهمة حتى نجهز لك عرض سعر مناسب.</p>"
+    },
+    {
+      "type": "text",
+      "id": "info_heading",
+      "label": "عنوان صندوق الإرشادات",
+      "default": "معلومات تساعد على تسعير الطلب"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "نص زر الإرسال",
+      "default": "إرسال طلب عرض السعر"
+    }
+  ],
+  "presets": [
+    {
+      "name": "صفحة طلب عرض سعر"
+    }
+  ]
+}
+{% endschema %}
