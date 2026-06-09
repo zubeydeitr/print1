@@ -1,0 +1,55 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "category": {
+          "type": "category",
+          "settings": {
+            "title": "الطلبات والشحن"
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "question": "هل تقدمون خدمات الطباعة والتغليف حسب الطلب؟",
+            "answer": "<p>نعم، نوفر في ذا برنت ون منتجات طباعة وتغليف حسب الطلب، مثل البوكسات، الأكياس، الملصقات، الأكواب، المطبوعات الورقية والهدايا الدعائية، مع إمكانية تخصيص الشعار والألوان والمقاسات حسب احتياجك.</p>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "question": "كم تستغرق مدة تنفيذ الطلب؟",
+            "answer": "<p>تختلف مدة التنفيذ حسب نوع المنتج والكمية والخامة والتشطيب المطلوب. بعد إرسال تفاصيل الطلب أو التصميم، نقوم بمراجعة المواصفات وإبلاغك بالمدة المتوقعة قبل بدء الإنتاج.</p>"
+          }
+        },
+        "question-3": {
+          "type": "question",
+          "settings": {
+            "question": "كيف أطلب عرض سعر؟",
+            "answer": "<p>يمكنك استخدام صفحة طلب عرض السعر وإرسال اسم المنتج، الكمية، المقاس، الخامة، نوع الطباعة، والتصميم إن وجد. سيقوم فريقنا بمراجعة التفاصيل والرد عليك بعرض مناسب.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category",
+        "question-1",
+        "question-2",
+        "question-3"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "faq"
+  ]
+}

@@ -1,0 +1,26 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "quote-page",
+      "settings": {
+        "kicker": "طلب عرض سعر",
+        "heading": "اطلب عرض سعر من ذا برنت ون",
+        "lead": "أرسل لنا تفاصيل المنتج المطلوب، الكمية، المقاس، الخامة، ونوع الطباعة، وسيقوم فريقنا بتجهيز عرض سعر مناسب لاحتياجك في الطباعة والتغليف.",
+        "sidebar_title": "كيف نجهز لك عرض السعر؟",
+        "sidebar_text": "كلما كانت تفاصيل الطلب أوضح، كان عرض السعر أدق وأسرع. يمكنك إرسال وصف المنتج، الكمية، المقاس، الخامة، ونوع التشطيب المطلوب."
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
