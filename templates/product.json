@@ -1,0 +1,175 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#101820",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "#0b7a3b",
+            "payment_button_text_color": "#ffffff"
+          }
+        },
+        "button_quote": {
+          "type": "button",
+          "settings": {
+            "link": "/pages/quote",
+            "text": "اطلب عرض سعر أو تخصيص",
+            "stretch": true,
+            "background": "#0b7a3b",
+            "text_color": "#ffffff"
+          }
+        },
+        "accordion_specs": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "picto-printer",
+            "title": "خيارات الطباعة والتخصيص",
+            "content": "<p>يمكن تخصيص المنتج بالشعار، الألوان، المقاس، الخامة، وطريقة التشطيب حسب احتياج المشروع. أرسل ملف التصميم أو اطلب تجهيز معاينة قبل الإنتاج.</p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "accordion_order": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "picto-calendar",
+            "title": "زمن الإنتاج والكمية",
+            "content": "<p>يعتمد زمن الإنتاج والسعر على الكمية والمقاس والخامة وطريقة الطباعة. تظهر بعض المنتجات بسعر يبدأ من، ويمكن طلب عرض سعر للطلبات الخاصة أو الكميات الكبيرة.</p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "accordion_file": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "picto-file",
+            "title": "ملفات التصميم",
+            "content": "<p>لأفضل نتيجة، يفضل إرسال ملف مفتوح أو PDF عالي الجودة مع توضيح المقاس النهائي، الألوان، ومكان الشعار أو النصوص المطلوبة.</p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "complementary_products": {
+          "type": "complementary_products",
+          "settings": {
+            "title": "منتجات مناسبة مع هذا المنتج",
+            "products_count": 2,
+            "show_below_gallery": true,
+            "stack_products": false,
+            "show_quick_buy": true
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "separator",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "button_quote",
+        "accordion_specs",
+        "accordion_order",
+        "accordion_file",
+        "complementary_products"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "allow_transparent_header": false,
+        "transparent_header_use_primary_colors": false,
+        "container_size": "lg",
+        "product_info_size": 40,
+        "show_sticky_add_to_cart": true,
+        "center_basic_info": false,
+        "desktop_media_layout": "grid",
+        "desktop_media_grid_gap": 24,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": true,
+        "recommendations_count": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "منتجات مقترحة",
+        "title": "منتجات مشابهة قد تناسب طلبك",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products"
+  ]
+}
