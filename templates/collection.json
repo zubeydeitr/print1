@@ -1,0 +1,67 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-banner": {
+      "type": "collection-banner",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "image_size": "sm",
+        "allow_transparent_header": false,
+        "show_image": true,
+        "reveal": true,
+        "enable_parallax": false,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_breadcrumb": true,
+        "content_width": "sm",
+        "text_alignment": "center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "hide_product_information": false,
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": true,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "sidebar",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": true,
+        "show_filter_group_name": true,
+        "show_filter_values_count": true,
+        "open_filters_by_default": false
+      }
+    },
+    "tp1-collection-seo": {
+      "type": "custom-liquid",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "text_alignment": "start",
+        "liquid": "<div class=\"tp1-home tp1-seo\" dir=\"rtl\"><h2>طباعة وتخصيص حسب طلبك</h2><p>جميع منتجات هذا القسم قابلة للتخصيص حسب الشعار، الألوان، المقاسات، الكمية، والخامة المناسبة. يمكنك تصفح المنتجات أو طلب عرض سعر للطلبات الخاصة.</p><a class=\"tp1-btn tp1-btn-primary\" href=\"/pages/quote\">اطلب عرض سعر</a></div>"
+      }
+    }
+  },
+  "order": [
+    "collection-banner",
+    "main",
+    "tp1-collection-seo"
+  ]
+}
