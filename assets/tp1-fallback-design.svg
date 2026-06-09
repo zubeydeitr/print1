@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="خدمات التصميم">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#f5fbfb"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#101820" flood-opacity=".18"/></filter>
+    <style>
+      .rtl{font-family:Arial,'Helvetica Neue',sans-serif;direction:rtl;unicode-bidi:bidi-override;}
+      .title{font-size:72px;font-weight:800;fill:#101820;}
+      .subtitle{font-size:34px;fill:#334155;}
+      .brand{font-family:Arial,'Helvetica Neue',sans-serif;font-size:52px;font-weight:900;fill:#101820;letter-spacing:-1px;}
+      .smallbrand{font-size:42px;}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <circle cx="130" cy="120" r="88" fill="#00bcd4" opacity=".16"/>
+  <circle cx="245" cy="785" r="130" fill="#ec4899" opacity=".12"/>
+  <circle cx="1450" cy="130" r="120" fill="#facc15" opacity=".16"/>
+  <g filter="url(#shadow)">
+        <g transform="translate(770 270)">
+          <rect x="75" y="60" width="480" height="320" rx="22" fill="#fff" stroke="#101820" stroke-width="8" transform="rotate(-7 315 220)"/>
+          <rect x="170" y="145" width="480" height="320" rx="22" fill="#f7f8f4" stroke="#101820" stroke-width="8" transform="rotate(5 410 305)"/>
+          <rect x="255" y="235" width="480" height="320" rx="22" fill="#fff" stroke="#101820" stroke-width="8"/>
+          <circle cx="335" cy="320" r="44" fill="#00bcd4"/><rect x="410" y="288" width="230" height="38" rx="19" fill="#101820" opacity=".82"/>
+          <rect x="335" y="382" width="330" height="22" rx="11" fill="#ec4899" opacity=".82"/>
+          <rect x="335" y="430" width="260" height="22" rx="11" fill="#facc15" opacity=".95"/>
+          <text x="500" y="520" text-anchor="middle" class="brand smallbrand">ThePrint1</text>
+        </g></g>
+  <g class="rtl" text-anchor="start">
+    <text x="700" y="215" class="title">خدمات التصميم</text>
+    <text x="700" y="282" class="subtitle">تجهيز هوية وملفات للطباعة</text>
+    <rect x="175" y="705" width="430" height="76" rx="38" fill="#101820"/>
+    <text x="390" y="755" text-anchor="middle" style="font-family:Arial;font-weight:800;font-size:31px;fill:#fff;direction:rtl;unicode-bidi:bidi-override;">اطلب عرض سعر</text>
+    <text x="175" y="840" style="font-family:Arial;font-size:28px;fill:#334155;direction:rtl;unicode-bidi:bidi-override;">طباعة مخصصة • تشطيب احترافي • مقاسات حسب الطلب</text>
+  </g>
+</svg>

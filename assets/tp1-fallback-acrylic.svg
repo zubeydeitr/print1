@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="أكريلك ولوحات">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#f5fbfb"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#101820" flood-opacity=".18"/></filter>
+    <style>
+      .rtl{font-family:Arial,'Helvetica Neue',sans-serif;direction:rtl;unicode-bidi:bidi-override;}
+      .title{font-size:72px;font-weight:800;fill:#101820;}
+      .subtitle{font-size:34px;fill:#334155;}
+      .brand{font-family:Arial,'Helvetica Neue',sans-serif;font-size:52px;font-weight:900;fill:#101820;letter-spacing:-1px;}
+      .smallbrand{font-size:42px;}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <circle cx="130" cy="120" r="88" fill="#00bcd4" opacity=".16"/>
+  <circle cx="245" cy="785" r="130" fill="#ec4899" opacity=".12"/>
+  <circle cx="1450" cy="130" r="120" fill="#facc15" opacity=".16"/>
+  <g filter="url(#shadow)">
+        <g transform="translate(820 245)">
+          <rect x="65" y="110" width="570" height="330" rx="34" fill="#fff" fill-opacity=".55" stroke="#101820" stroke-width="8"/>
+          <rect x="130" y="165" width="440" height="220" rx="24" fill="#eef6f5" fill-opacity=".8" stroke="#16b6c9" stroke-width="6"/>
+          <text x="350" y="295" text-anchor="middle" class="brand">ThePrint1</text>
+          <path d="M220 450 L170 620 M480 450 L535 620" stroke="#101820" stroke-width="10" stroke-linecap="round"/>
+          <circle cx="190" cy="170" r="26" fill="#facc15"/><circle cx="520" cy="380" r="24" fill="#ec4899"/>
+        </g></g>
+  <g class="rtl" text-anchor="start">
+    <text x="700" y="215" class="title">أكريلك ولوحات</text>
+    <text x="700" y="282" class="subtitle">لوحات عرض وستاندات مطبوعة</text>
+    <rect x="175" y="705" width="430" height="76" rx="38" fill="#101820"/>
+    <text x="390" y="755" text-anchor="middle" style="font-family:Arial;font-weight:800;font-size:31px;fill:#fff;direction:rtl;unicode-bidi:bidi-override;">اطلب عرض سعر</text>
+    <text x="175" y="840" style="font-family:Arial;font-size:28px;fill:#334155;direction:rtl;unicode-bidi:bidi-override;">طباعة مخصصة • تشطيب احترافي • مقاسات حسب الطلب</text>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+THEPRINT1 empty collections cleanup
+
+This theme update hides/removes empty collections from visible theme output:
+- main list-collections page skips collections with 0 products.
+- collection-list sections skip selected collection blocks with 0 products.
+- featured-collections sections skip blank/empty collections and no longer render placeholder product cards for empty collections.
+- fallback desktop/sidebar menus hide collection links when the target collection has 0 products.
+- homepage hardcoded category cards are wrapped in product-count checks.
+
+Important: Shopify theme files cannot permanently delete collections from Shopify admin. This cleanup prevents empty collections from appearing in the storefront/theme. To delete collections from Shopify admin, remove them manually or with a collection CSV/app.
